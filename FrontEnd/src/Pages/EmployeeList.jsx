@@ -105,7 +105,7 @@ export default function EmployeeList() {
 const navigate = useNavigate()
   // Handle employee actions
   const handleView = (employee) => {
-    navigate(`/employees/${employee.employee_id}`)
+    navigate(`/EmployeeDetails/${employee.employee_id}`)
   };
 
   const handleEdit = (employee) => {
